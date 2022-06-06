@@ -1,0 +1,275 @@
+/*Extra large Device (large desktops)*/
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+    /*    menu*/
+    .main-menu ul li a {
+        padding: 45px 11px;
+    }
+
+    /*    slider*/
+    .slider-content h2 {
+        font-size: 80px;
+    }
+}
+
+/*LG Device (desktops)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        /*        background: red;*/
+    }
+
+    .container {
+        width: 970px;
+    }
+
+    .section-title h3 {
+        font-size: 55px;
+    }
+
+    /*menu*/
+    .menu-right {
+        display: none;
+    }
+
+    /*    slider*/
+    .slider-image {
+        visibility: hidden;
+    }
+
+    /*    cta*/
+    .cta-btn {
+        margin-top: 40px;
+    }
+
+    /*    team*/
+    .team-text {
+        width: 254px;
+    }
+
+}
+
+/*MD devcie (Tablets)*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 750px;
+    }
+
+    /*menu*/
+    .menu-right {
+        display: none;
+    }
+
+    .menu-area {
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+
+    /*    slider*/
+    .slider-image {
+        visibility: hidden;
+    }
+
+    /*    skill*/
+    .skill-area-pic {
+        text-align: center;
+    }
+
+    .sa-part-2 {
+        margin-top: 30px;
+    }
+
+    /*    cta*/
+    .cta-btn {
+        margin-top: 40px;
+    }
+
+    /*    team*/
+    .team-area {
+        margin-top: 400px;
+    }
+
+    /*    map*/
+    .map {
+        margin-top: 40px;
+    }
+}
+
+
+/*SM Device (Phone)*/
+@media (min-width: 576px) and (max-width:767px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .section-title h3 {
+        font-size: 40px;
+    }
+
+    /*menu*/
+    .menu-right {
+        display: none;
+    }
+
+    .menu-area {
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+
+    /*    slider*/
+    .single-slider {
+        min-height: 650px;
+    }
+
+    .slider-image {
+        visibility: hidden;
+    }
+
+    .slider-content h2 {
+        font-size: 35px;
+    }
+
+
+    /*    skill*/
+    .skill-area-pic {
+        text-align: center;
+    }
+
+    .sa-part-2 {
+        margin-top: 30px;
+    }
+
+    /*    cta*/
+    .cta-content {
+        padding: 50px 20px 80px 20px;
+    }
+
+    .cta-text h2 {
+        font-size: 40px;
+    }
+
+    .cta-btn {
+        margin-top: 25px;
+    }
+
+    /*    education*/
+    .edu-img-1 img {
+        width: 100%;
+    }
+
+    .edu-img-2 {
+        position: static;
+    }
+
+    .icon-image img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    /*    map*/
+    .map {
+        margin-top: 40px;
+    }
+
+    /*    footer*/
+    .footer-right h3 {
+        font-size: 26px;
+    }
+}
+
+/*Extra SM*/
+@media (max-width: 575px) {
+
+    .section-title h3 {
+        font-size: 40px;
+    }
+
+    /*menu*/
+    .menu-right {
+        display: none;
+    }
+
+    .menu-area {
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+
+    /*    slider*/
+    .single-slider {
+        min-height: 650px;
+    }
+
+    .slider-image {
+        visibility: hidden;
+    }
+
+    .slider-content h2 {
+        font-size: 35px;
+    }
+
+    .section-title h3 {
+        font-size: 40px;
+    }
+
+    .video-btn {
+        margin-left: 0;
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+    /*    skill*/
+    .skill-area-pic img {
+        border: 10px solid #fff;
+        width: 100%;
+    }
+
+    .sa-part-2 {
+        margin-top: 30px;
+    }
+
+    /*    about*/
+    .btn-design {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    /*    portfolio*/
+    .portfolio-menu button {
+        margin: 0 0 10px 0;
+    }
+
+    /*    cta*/
+    .cta-content {
+        padding: 50px 20px 80px 20px;
+    }
+
+    .cta-text h2 {
+        font-size: 40px;
+    }
+
+    .cta-btn {
+        margin-top: 25px;
+    }
+
+    .btn-mail {
+        margin: 10px 0 0 0;
+    }
+
+    /*    education*/
+    .edu-img-1 img {
+        width: 100%;
+    }
+
+    .edu-img-2 {
+        position: static;
+    }
+
+    .icon-image img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    /*    map*/
+    .map {
+        margin-top: 40px;
+    }
+}
